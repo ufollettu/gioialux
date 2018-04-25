@@ -1,0 +1,28 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */
+
+.service {
+    opacity:0;
+    transition:all .5s;
+}
+.align-left.slide-in {
+    transform:translateX(-30%) scale(0.95);
+}
+.align-right.slide-in {
+    transform:translateX(30%) scale(0.95);
+}
+.slide-in.active {
+    opacity:1;
+    transform:translateX(0%) scale(1);
+}</style>
+<!-- end Simple Custom CSS and JS -->
